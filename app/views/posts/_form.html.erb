@@ -1,0 +1,11 @@
+<center>
+<%=form_with model: @post do|form|%>
+<div>
+<%=form.label :name%><br>
+<%=form.text_field :name%><br>
+</div><br>
+<div>
+<%=form.submit%>
+</div>
+<%end%>
+</center>
